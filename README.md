@@ -12,5 +12,5 @@ Also, one can open the notebook and export it as a `.py` file for ease of import
 - Currently only supports L2 norm, but L-infinity support should be straightforward.
 - This repo is mostly a learning experience. There are already (probably better) implementations of this:
   - [@Jianbo-Lab](https://github.com/Jianbo-Lab)/[HJSA](https://github.com/Jianbo-Lab/HSJA) (this is the paper's author's repo)
-  - [@tensorflow](https://github.com/tensorflow)/[cleverhans](https://github.com/tensorflow/cleverhans)
-  - [@bethgelab](https://github.com/bethgelab)/[foolbox](https://github.com/bethgelab/foolbox) (HSJA was removed in some commit I didn't track, but it used to be here.)
+  - [@tensorflow](https://github.com/tensorflow)/[cleverhans](https://github.com/tensorflow/cleverhans) (install the edge version on GitHub, the one in `pip` still does not have HSJA.)
+  - [@bethgelab](https://github.com/bethgelab)/[foolbox](https://github.com/bethgelab/foolbox) (HSJA was removed in some commit I didn't track, but it used to be there.)
